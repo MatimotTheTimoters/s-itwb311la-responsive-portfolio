@@ -1,0 +1,70 @@
+﻿name: "Bug Report"
+description: "Report a reproducible bug with steps, expected vs actual behavior, and any stack traces."
+title: "[BUG] {{ summary }}"
+labels: ["bug"]
+assignees: []
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: "📝 Summary"
+      description: |
+        One-line imperative summary of the bug. This will be used in the issue title.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🪜 Steps to reproduce"
+      description: |
+        Provide numbered, minimal steps that exactly reproduce the issue.
+        Example:
+        1. Go to `/signup`
+        2. Enter `user@`
+        3. Click **Create account**
+        4. Observe the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "✅ Expected Behavior"
+      description: |
+        Describe what you expected to happen when following the steps above.
+        Be concise and specific (what should the user see / what HTTP response code / UI change).
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "❌ Actual Behavior"
+      description: |
+        Describe what actually happened (include error messages, HTTP status codes, visible failures).
+        Paste exact text of errors when possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: stack_trace
+    attributes:
+      label: "🔎 Stack Trace"
+      description: |
+        Paste relevant stack traces, logs, or error dumps here.
+        Wrap code blocks in triple backticks (```) for readability.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **📎 Attachments**
+
+        Attach screenshots, recordings, or other files using the **Attach files** button below the issue form (do not paste large binary blobs into the text fields).
+
+        Helpful attachments:
+        - Screenshots showing the UI error
+        - Console logs or network traces exported to a file
+        - A link to a minimal reproducible repo or CodePen/StackBlitz if available

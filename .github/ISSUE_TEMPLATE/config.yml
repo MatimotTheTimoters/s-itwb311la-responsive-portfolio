@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Report a bug (Bug Report template)"
+    url: "LinkToFileInGitHubRepo" #https://github.com/MatimotTheTimoters/repo-templates-asp.net-web-app/blob/main/repo-templates-asp.net-web-app/.github/ISSUE_TEMPLATE/bug-report.yml
+    about: "Open the Bug Report template to file a reproducible bug."
+  - name: "Suggest a new feature (Feature Request template)"
+    url: "LinkToFileInGitHubRepo"
+    about: "Open the Feature Request template to propose the next actionable step."

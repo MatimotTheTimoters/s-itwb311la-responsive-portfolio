@@ -1,0 +1,60 @@
+﻿# .github/ISSUE_TEMPLATE/new-task.yml
+name: "Feature Request"
+description: "Suggest the next step for this project."
+title: "Feature request"
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: textarea
+    id: prerequisite_tasks
+    attributes:
+      label: "⬅️ Prerequesite Tasks"
+      description: |
+        List issue IDs that must be completed before starting this feature. Example: #1, #2
+    validations:
+      required: false
+
+  - type: textarea
+    id: required_files
+    attributes:
+      label: "📂 Required Files"
+      description: |
+        List files that must be present or modified for this feature. Example: index.html, styles.css
+    validations:
+      required: false
+
+  - type: textarea
+    id: task_list
+    attributes:
+      label: "✅ Task List"
+      description: |
+        Provide a checklist of tasks and subtasks required to create this feature. Example: [ ] Task 1
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "💯 Acceptance Criteria"
+      description: |
+        List the measurable criteria that must be met for this feature to be considered complete. Example: [ ] Criteria 1
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "📝 Notes"
+      description: |
+        Additional context, clarifications, or related discussions for this feature.
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: "🔗 References"
+      description: |
+        Add relevant links such as documentation, articles, or videos. Example: [Methods and functions that can be used](link)
+    validations:
+      required: false
