@@ -13,54 +13,121 @@
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/assets/383229411_164533773371707_5980027011149231589_n.jpg" alt="Bootstrap" width="30"
-                        height="24">
-                    Matthew's Portfolio
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="skills.html">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-me.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    <main>
-        <div class="container d-flex flex-column gap-3">
-            <div class="progress ms-auto w-75" role="progressbar" aria-label="Danger example" aria-valuenow="25"
-                aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar text-bg-danger" style="width: 25%">JavaScript - 25%</div>
-            </div>
-            <div class="progress ms-auto w-75" role="progressbar" aria-label="Danger example" aria-valuenow="30"
-                aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar text-bg-danger" style="width: 30%">CSS - 30%</div>
-            </div>
-            <div class="progress ms-auto w-75" role="progressbar" aria-label="Success example" aria-valuenow="60"
-                aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar text-bg-success" style="width: 60%">HTML - 60%</div>
-            </div>
-            <div class="progress ms-auto w-75" role="progressbar" aria-label="Info example" aria-valuenow="50"
-                aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar text-bg-info" style="width: 50%">C# - 50%</div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/383229411_164533773371707_5980027011149231589_n.jpg" alt="Bootstrap" width="30"
+                    height="24">
+                Matthew's Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <main>
+        <main>
+            <div class="container my-5">
+                <div class="d-flex flex-column gap-4 align-items-center">
+                    <h1 class="display-1">My Skills</h1>
+                    <!-- JavaScript -->
+                    <div class="w-75">
+                        <p class="d-flex align-items-center mb-2">
+                            <img src="/assets/javascript.png" alt="JS Logo" class="me-2"
+                                style="width:20px; height:20px;">
+                            JavaScript
+                        </p>
+                        <div class="progress" role="progressbar" aria-label="JavaScript progress" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-danger" style="width: 25%">25%</div>
+                        </div>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="w-75">
+                        <p class="d-flex align-items-center mb-2">
+                            <img src="/assets/css.png" alt="CSS Logo" class="me-2"
+                                style="width:20px; height:20px;">
+                            CSS
+                        </p>
+                        <div class="progress" role="progressbar" aria-label="CSS progress" aria-valuenow="30"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-warning" style="width: 30%">30%</div>
+                        </div>
+                    </div>
+
+                    <!-- HTML -->
+                    <div class="w-75">
+                        <p class="d-flex align-items-center mb-2">
+                            <img src="/assets/html.png" alt="HTML Logo" class="me-2"
+                                style="width:20px; height:20px;">
+                            HTML
+                        </p>
+                        <div class="progress" role="progressbar" aria-label="HTML progress" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-success" style="width: 60%">60%</div>
+                        </div>
+                    </div>
+
+                    <!-- C# -->
+                    <div class="w-75">
+                        <p class="d-flex align-items-center mb-2">
+                            <img src="/assets/csharp.png" alt="C# Logo" class="me-2"
+                                style="width:20px; height:20px;">
+                            C#
+                        </p>
+                        <div class="progress" role="progressbar" aria-label="C# progress" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 50%">50%</div>
+                        </div>
+                    </div>
+
+                    <!-- SQL -->
+                    <div class="w-75">
+                        <p class="d-flex align-items-center mb-2">
+                            <img src="/assets/sql.png" alt="C# Logo" class="me-2"
+                                style="width:20px; height:20px;">
+                            SQL
+                        </p>
+                        <div class="progress" role="progressbar" aria-label="SQL progress" aria-valuenow="30"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-warning" style="width: 30%">30%</div>
+                        </div>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="w-75">
+                        <p class="d-flex align-items-center mb-2">
+                            <img src="/assets/java.png" alt="Java Logo" class="me-2"
+                                style="width:20px; height:20px;">
+                            Java
+                        </p>
+                        <div class="progress" role="progressbar" aria-label="Java progress" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 50%">50%</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
     </main>
     <footer>
 
