@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-          rel="stylesheet" 
-          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-          crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="/assets/383229411_164533773371707_5980027011149231589_n.jpg" alt="Bootstrap" width="30"
@@ -42,18 +43,113 @@
                 </div>
             </div>
         </nav>
+    </header>
     <main>
+        <div class="py-3 my-4 container">
+            <h1 class="display-4 text-center mb-4">About Me</h1>
 
+            <!-- Intro Section -->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-4 text-center">
+                    <img src="/assets/383229411_164533773371707_5980027011149231589_n.jpg"
+                        class="rounded-circle img-fluid shadow" alt="Matthew's profile picture">
+                </div>
+                <div class="col-md-8">
+                    <p class="lead">
+                        Hi, I'm <strong>Matthew</strong> — an aspiring web developer passionate about building clean,
+                        functional, and creative digital experiences. Outside coding, I enjoy learning new skills and
+                        challenging myself through different hobbies.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Hobbies Section -->
+            <h2 class="h3 text-center mb-4">My Hobbies</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-music-note-beamed display-5 text-primary"></i>
+                            <h5 class="card-title mt-3">Playing Guitar</h5>
+                            <p class="card-text">I enjoy playing classical guitar, practicing technique, and exploring
+                                new pieces.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-translate display-5 text-danger"></i>
+                            <h5 class="card-title mt-3">Learning Japanese</h5>
+                            <p class="card-text">I study Japanese using WaniKani, Duolingo, Anki, and by reading
+                                Japanese textbooks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-heart-pulse display-5 text-success"></i>
+                            <h5 class="card-title mt-3">Bodyweight & Flexibility</h5>
+                            <p class="card-text">I focus on calisthenics and stretching to build strength, balance, and
+                                mobility.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-book-half display-5 text-warning"></i>
+                            <h5 class="card-title mt-3">Reading</h5>
+                            <p class="card-text">I read mostly non-fiction books on my Kindle to expand knowledge and
+                                perspectives.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-layout-text-window display-5 text-info"></i>
+                            <h5 class="card-title mt-3">Making Notion Templates</h5>
+                            <p class="card-text">I design Notion templates to improve productivity, organization, and
+                                workflows.</p>
+                            <a href="https://www.notion.com/@sealed_insights" class="btn btn-primary mt-auto"
+                                target="_blank">
+                                Go to Notion
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </main>
     <footer>
-        
+        <div class="py-3 my-4 container">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="https://www.facebook.com/ChonkySeal0295" class="nav-link px-2 text-body-secondary">Facebook</a></li>
+                <li class="nav-item"><a href="https://discord.com/users/1082245559278125077" class="nav-link px-2 text-body-secondary">Discord</a></li>
+                <li class="nav-item"><a href="https://github.com/MatimotTheTimoters" class="nav-link px-2 text-body-secondary">GitHub</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Gmail</a></li>
+            </ul>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">MatimotTheTimoters@gmail.com</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">(63+)0977-272-2344</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 Matthew's Portfolio</p>
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" 
-            integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" 
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 </body>
 </html>
